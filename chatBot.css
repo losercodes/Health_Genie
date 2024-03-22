@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+#subcontainer1 {
+    height: 100vh;
+    background-color: #247983;
+    display: grid;
+    grid-template-rows: 1fr 8fr 1fr;
+}
+#subcontainer2 {
+    height: 100vh;
+    background-color: white;
+    display: grid;
+    grid-template-rows: 0.6fr 8fr 1fr;
+}
+.bg-white-round{
+    background-color: aliceblue;
+    margin: 10px;
+    border-radius: 22px;
+}
+#profileSection{
+    display: flex;
+    align-items: center;
+}
+#userImage{
+    border-radius: 50%;
+    margin: 10px;
+}
+#UserHistory{
+    background-color: antiquewhite;
+    border-radius: 0;
+}
+#updateReport{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.report{
+    margin: 10px auto;
+}
+.folder{
+    margin-right: 20px;
+    background:white;
+    background-blend-mode: normal; 
+}
+#header{
+    background-color: #247983;
+    /* height: 7%; */
+}
+#chatArea{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    flex-direction: column;
+}
+.message{
+    width: 60%;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 22px;
+}
+.botMessage{
+    background-color: antiquewhite;
+    align-self: flex-start;
+}
+.UserMessage{
+    background-color: black;
+    color: white;
+}
+#queryArea{
+    background-color: #B2EBF2;
+    padding: 20px;
+    border: none;
+}
