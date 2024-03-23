@@ -47,6 +47,9 @@ Health Genie features an AI-powered chatbot capable of assisting users with vari
 ## Usage
 
 To use Health Genie:
+![Screenshot from 2024-03-23 11-36-16](https://github.com/losercodes/Health_Genie/assets/116947899/c11f302b-12f9-459d-975e-10b8b1bc57fd)
+
+
 
 1. *Sign Up*: Create a user account by providing necessary information.
 2. *Profile Management*: Complete your profile with accurate details including name, age, blood type, and allergies.
