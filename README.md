@@ -28,6 +28,8 @@ Health Genie features an AI-powered chatbot capable of assisting users with vari
 
 1. *Medical History Report*: Users can interact with the chatbot to obtain their medical history reports based on the data stored on the blockchain.
 2. *Health Advice*: Users can seek personalized health advice and guidance from the chatbot on various health-related topics.
+*Youcan Use it by installing the node modules and after that check code struture understand it then go throught for further modification
+
 
 ## Usage
 
