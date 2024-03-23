@@ -1,0 +1,46 @@
+{
+  "name": "healthapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fontsource/poppins": "^5.0.8",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@rainbow-me/rainbowkit": "^2.0.1",
+    "@tanstack/query-sync-storage-persister": "^5.28.6",
+    "@tanstack/react-query": "^5.28.6",
+    "@tanstack/react-query-persist-client": "^5.28.6",
+    "@thirdweb-dev/react": "^3.16.5",
+    "@thirdweb-dev/sdk": "^3.10.67",
+    "@thirdweb-dev/storage": "^1.2.11",
+    "appwrite": "^13.0.2",
+    "bootstrap-icons": "^1.11.3",
+    "crypto-js": "^4.2.0",
+    "ethers": "^5.7.2",
+    "file-saver": "^2.0.5",
+    "font-awesome": "^4.7.0",
+    "fs": "^0.0.1-security",
+    "keccak256": "^1.0.6",
+    "next": "14.1.4",
+    "pdf-lib": "^1.17.1",
+    "pino-pretty": "^11.0.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-pdf": "^7.7.1",
+    "siwe": "^2.1.4",
+    "utils": "^0.3.1",
+    "utils.js": "^1.0.1",
+    "viem": "^2.8.18",
+    "wagmi": "^2.5.12"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.1.4"
+  }
+}

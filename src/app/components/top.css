@@ -1,0 +1,26 @@
+.top{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.timage-cont{
+    position: absolute;
+    height: 500px;
+    width: auto;
+    left:15%;
+}
+.timg{
+    height: 500px;
+    width: auto;
+}
+.top-text{
+    position: absolute;
+    width: 40%;
+    right:15%;
+    font-size: 24px;
+    text-align: center;
+}

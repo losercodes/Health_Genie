@@ -1,0 +1,15 @@
+.body{
+    position: absolute;
+    color: black;
+    width: 100%;
+    height: 100vh;
+}
+.bg2image{
+    position: absolute;
+    width: 120vw;
+    height: auto;
+    z-index: -1;
+}
+.button{
+    position: absolute;
+}

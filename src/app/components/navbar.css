@@ -1,0 +1,62 @@
+.navbar{
+    position: relative;
+    background: #86A9D2;
+    width: 100%;
+    height:60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.menu-bar{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    right: 5%;
+}
+.menu-button{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    gap:20px;
+    right: 5%;
+    width: 300px;
+    
+}
+.bhome{
+    font-weight: 900;
+    font-size: 18px;
+    display: flex;
+}
+.image-cont{
+    position: absolute;
+    height: 100%;
+    width: auto;
+    left:5%;
+}
+.img{
+    height: 50px;
+    width: auto;
+}
+.wallet{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    background: white;
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 50px;
+    width: fit-content;
+    font-weight: 900;
+    color: black;
+}
+.wallet:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,30 @@
+.sign-with{
+    position: relative;
+    background: white;
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 50px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    color: black;
+}
+.sign-with:hover{
+    cursor: pointer;
+}
+.wallet{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    background: white;
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 50px;
+    width: 100%;
+    font-weight: 900;
+    color: black;
+}
+.wallet:hover{
+    cursor: pointer;
+}
