@@ -10,6 +10,9 @@ Health Genie is an innovative healthcare website that integrates advanced AI cha
 
 ### Blockchain Integration
 
+
+![WhatsApp Image 2024-03-23 at 11 41 33 AM](https://github.com/losercodes/Health_Genie/assets/116947899/8050e742-d4ad-4862-a11e-40feef876c6e)
+
 Health Genie utilizes Ethereum Virtual Machine (EVM) smart contracts for storing and managing user data securely on the blockchain. The following features are implemented using smart contracts:
 
 1. *User Profile*: Users can create and manage their profiles, including name, age, blood type, and allergies.
