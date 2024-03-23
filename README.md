@@ -30,9 +30,14 @@ Health Genie features an AI-powered chatbot capable of assisting users with vari
 2. *Health Advice*: Users can seek personalized health advice and guidance from the chatbot on various health-related topics.
 *Youcan Use it by installing the node modules and after that check code struture understand it then go throught for further modification
 
-## Preview'
+## Preview
+
+![Screenshot from 2024-03-23 11-31-29](https://github.com/losercodes/Health_Genie/assets/116947899/e5f9c05a-1ce6-444d-b094-9af87bb60e54)
 
 
+![Screenshot from 2024-03-23 11-31-55](https://github.com/losercodes/Health_Genie/assets/116947899/39e21b61-de17-46c9-b2b9-125b4f10626d)
+
+![Screenshot from 2024-03-23 11-32-02](https://github.com/losercodes/Health_Genie/assets/116947899/baa53545-16ad-4a73-9bc1-bdd40d09a7c6)
 
 
 
