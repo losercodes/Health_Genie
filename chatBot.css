@@ -1,81 +1,112 @@
+/* Reset styles and box-sizing */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* Container layout */
 #container {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  height: 100vh; /* Set full viewport height */
 }
+
+/* Subcontainer 1 layout */
 #subcontainer1 {
-    height: 100vh;
-    background-color: #247983;
-    display: grid;
-    grid-template-rows: 1fr 8fr 1fr;
+  background-color: #247983;
+  display: grid;
+  grid-template-rows: auto 1fr auto; /* Use 'auto' for fixed header and footer */
+  padding: 1rem; /* Add some padding */
 }
+
+/* Subcontainer 2 layout */
 #subcontainer2 {
-    height: 100vh;
-    background-color: white;
-    display: grid;
-    grid-template-rows: 0.6fr 8fr 1fr;
+  background-color: white;
+  display: grid;
+  grid-template-rows: auto 1fr auto; /* Use 'auto' for fixed header and footer */
+  padding: 1rem; /* Add some padding */
 }
-.bg-white-round{
-    background-color: aliceblue;
-    margin: 10px;
-    border-radius: 22px;
+
+/* Rounded background */
+.bg-white-round {
+  background-color: aliceblue;
+  margin: 10px;
+  border-radius: 22px;
+  padding: 1rem; /* Add some padding */
 }
-#profileSection{
-    display: flex;
-    align-items: center;
+
+/* Profile section styles */
+#profileSection {
+  display: flex;
+  align-items: center;
 }
-#userImage{
-    border-radius: 50%;
-    margin: 10px;
+
+#userImage {
+  border-radius: 50%;
+  margin: 10px;
 }
-#UserHistory{
-    background-color: antiquewhite;
-    border-radius: 0;
+
+/* User history styles */
+#UserHistory {
+  background-color: antiquewhite;
+  border-radius: 0;
+  padding: 1rem; /* Add some padding */
 }
-#updateReport{
-    display: flex;
-    align-items: center;
-    justify-content: end;
+
+/* Update report styles */
+#updateReport {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
-.report{
-    margin: 10px auto;
+
+.report {
+  margin: 10px auto;
 }
-.folder{
-    margin-right: 20px;
-    background:white;
-    background-blend-mode: normal; 
+
+.folder {
+  margin-right: 20px;
+  background: white;
+  background-blend-mode: normal;
 }
-#header{
-    background-color: #247983;
-    /* height: 7%; */
+
+/* Header styles */
+#header {
+  background-color: #247983;
+  padding: 1rem; /* Add some padding */
 }
-#chatArea{
-    display: flex;
-    align-items: end;
-    justify-content: end;
-    flex-direction: column;
+
+/* Chat area styles */
+#chatArea {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /* Add some spacing between messages */
+  padding: 1rem; /* Add some padding */
+  overflow-y: auto; /* Add scrollbar if messages exceed container height */
 }
-.message{
-    width: 60%;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 22px;
+
+.message {
+  max-width: 60%;
+  padding: 1rem;
+  border-radius: 22px;
 }
-.botMessage{
-    background-color: antiquewhite;
-    align-self: flex-start;
+
+.botMessage {
+  background-color: antiquewhite;
+  align-self: flex-start;
 }
-.UserMessage{
-    background-color: black;
-    color: white;
+
+.UserMessage {
+  background-color: black;
+  color: white;
+  align-self: flex-end;
 }
-#queryArea{
-    background-color: #B2EBF2;
-    padding: 20px;
-    border: none;
+
+/* Query area styles */
+#queryArea {
+  background-color: #B2EBF2;
+  padding: 1rem;
+  border: none;
+  resize: none; /* Disable resizing */
 }
